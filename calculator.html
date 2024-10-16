@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            PROJECT
+        </title>
+        <link rel="stylesheet" href="./calculator.css">
+        
+    </head>
+    <body>
+        <div class="main">
+            <h1>⭐⭐⭐CALCULATOR⭐⭐⭐</h1>
+            <img src="https://img.freepik.com/free-psd/abstract-paper-objects-isolated-white-background_23-2151201581.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" alt="shape1">
+        <img src="https://img.freepik.com/premium-psd/white-gray-puzzle-with-red-arrow-pointing-left_1217673-237057.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" alt="shape2">
+            <img src="https://img.freepik.com/premium-psd/colorful-square-with-white-frame-with-colorful-balls-it_1217673-237173.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" alt="shape3">
+            <img src="https://img.freepik.com/premium-psd/abstract-balancing-geometric-3d-object_66255-3016.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" alt="shape4">
+            <img src="https://img.freepik.com/premium-photo/red-orange-cube-with-red-one-it_1217673-34585.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" alt="shape6">
+            <img src="https://img.freepik.com/premium-photo/colorful-puzzle-with-water-drop-it_1221953-48807.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid" alt="shape7">
+            <img src="https://img.freepik.com/premium-photo/3d-flat-icon-designer-with-sketchpad-growth-chart-creative-design-business-growth-white-b_980716-382288.jpg?ga=GA1.1.1700452634.1719679908" alt="shape9">
+            <table>
+                <tr>
+                    <td colspan="3"><p id="one"></p></td>
+                     <td><button onclick="val.innerHTML=''">C</button></td>
+                </tr>
+                <tr>
+                    <td><button id="start" onclick="val.innerHTML+='1'">1</button></td>
+                    <td><button onclick="val.innerHTML+='2'">2</button></td>
+                    <td><button onclick="val.innerHTML+='3'">3</button></td>
+                    <td><button onclick="val.innerHTML+='+'">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="val.innerHTML+='4'">4</button></td>
+                    <td><button onclick="val.innerHTML+='5'">5</button></td>
+                    <td><button onclick="val.innerHTML+='6'">6</button></td>
+                    <td><button onclick="val.innerHTML+='-'">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="val.innerHTML+='7'">7</button></td>
+                    <td><button onclick="val.innerHTML+='8'">8</button></td>
+                    <td><button onclick="val.innerHTML+='9'">9</button></td>
+                    <td><button onclick="val.innerHTML+='/'">/</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="val.innerHTML+='*'">*</button></td>
+                    <td><button onclick="val.innerHTML+='0'">0</button></td>
+                    <td><button onclick="val.innerHTML+='.'">.</button></td>
+                    <td><button onclick="res()">=</button></td>
+                </tr>
+            </table>
+
+        </div>
+
+        <script src="./calculator.js"></script>
+    </body>
+</html>

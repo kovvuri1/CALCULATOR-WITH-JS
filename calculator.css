@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+   text-align: center;
+   font-family: cursive;
+   color:red;
+   text-transform:capitalize;
+   animation-name: col;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   
+}
+@keyframes col{
+    50%{
+        color: palevioletred;
+        font-weight: bolder;
+        letter-spacing: 7px;
+    }
+    20%{
+        color: blueviolet;
+    }
+    30%{
+        color: green;
+    }
+}
+table{
+    position: absolute;
+    top: 120px;
+    left: 37vw;
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+    border: 0.2px solid rgb(201, 197, 197);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    font-family: cursive; 
+}
+button{
+    border: none;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+button:hover{
+    background-color: rgb(232, 207, 207);
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+td{
+    border: 0.2px solid rgb(201, 197, 197);
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+
+}
+td:hover{
+    background-color: gray;
+}
+input{
+    height: 30px;
+    width: 250px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+img[ alt="shape2"]{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    animation-name: mov;
+   animation-duration: 15s;
+   animation-iteration-count: infinite;
+}
+@keyframes mov{
+    30%{transform: rotate(360deg);};
+    30%{transform: rotate(100deg);};
+    40%{transform: scale(1.2);}
+
+}
+@keyframes movn{
+    50%{content: url("https://img.freepik.com/premium-photo/lego-figure-with-face-it-clock-left_1103290-53878.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid");}
+
+}
+
+@keyframes mov1{
+    50%{content: url("https://img.freepik.com/premium-photo/school-supplies-isolated-blank-background-cutout_145713-30522.jpg?ga=GA1.1.1700452634.1719679908&semt=ais_hybrid");}  
+}
+@keyframes mov2{
+    100%{transform:scale(1.2)};
+   
+}
+img[ alt="shape3"]{
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    animation-name: mov2;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+    
+}
+img[ alt="shape4"]{
+    position: absolute;
+    left: 10px;
+    top: 255px;
+    
+   animation-name: mov;
+   animation-duration: 15s;
+   animation-iteration-count: infinite;
+    
+   
+}
+img[ alt="shape9"]{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    animation-name: movn;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+    
+   
+}
+img[ alt="shape1"]{
+    position: absolute;
+    height: 150px;
+    bottom: 30px;
+    left: 50px;
+    animation-name: mov1;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+}
+img[ alt="shape7"]{
+    position: absolute;
+    bottom: 60px;
+    left: 360px;
+   animation-name: mov;
+   animation-duration: 15s;
+   animation-iteration-count: infinite;
+    
+    
+}
+img[ alt="shape6"]{
+    position: absolute;
+    bottom: 50px;
+    right: 420px;
+    animation-name: mov;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
